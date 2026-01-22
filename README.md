@@ -74,11 +74,11 @@ O algoritmo resolve o conflito entre dois pilares:
 **Por que 85% de Certeza?**
 O modelo identificou que selecionar candidatos com certeza de **85%** permite manter a nota de corte elevada (**> 816 pts**) enquanto garante que a vaga não ficará ociosa. Se buscássemos 100% de certeza, a nota média cairia drasticamente; se buscássemos apenas nota, a certeza de ocupação seria volátil.
 
-## Resultados da Alocação Final (Modelo Otimizado)
+### Resultados da Alocação Final (Modelo Otimizado)
 
 O modelo de Programação Linear Inteira (desenvolvido em **Julia** com solver **Gurobi**) selecionou os candidatos que equilibram o **mérito acadêmico** com a **probabilidade de ocupação**, visando mitigar a ociosidade das vagas.
 
-### 📈 Estatísticas de Performance
+### Estatísticas de Performance
 | Métrica | Resultado Obtido |
 | :--- | :--- |
 | **Vagas Totais Ofertadas** | 50 |
@@ -87,7 +87,7 @@ O modelo de Programação Linear Inteira (desenvolvido em **Julia** com solver *
 | **Utilidade Total do Sistema** | **34.842,50** pts |
 | **Utilidade Esperada por Vaga** | **696.85** pts |
 
-### 🏆 Top 50 Candidatos Selecionados
+### Top 50 Candidatos Selecionados
 Esta lista representa os candidatos convocados pelo algoritmo, selecionados com base na otimização da utilidade esperada.
 
 | Row | Nota | UF | Certeza | Convocado |
